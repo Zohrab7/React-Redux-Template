@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+@font-face {
+    font-family: Circe;
+    src: url(../../fonts/Circe-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $circe;
+    color: rgba(61, 63, 75, .8);
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 100%;
+    min-height: auto;
+}

@@ -1,0 +1,35 @@
+@import 'styles/variables.scss';
+
+.video{
+	width: 100%;
+	max-width: 589px;
+}
+
+.video__wrapper{
+	height: 0;
+	padding-top: 64.2%;
+	position: relative;
+	background: #000;
+	cursor: pointer;
+}
+
+.video video{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.video__play{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.2s ease;
+}
+
+.video__wrapper:hover .video__play{
+	opacity: 0.8;
+}

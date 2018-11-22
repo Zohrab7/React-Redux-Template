@@ -1,0 +1,17 @@
+@import "styles/variables.scss";
+
+.home {
+  &__container {
+    margin: 0 auto;
+    position: relative;
+    max-width: 100%;
+    min-height: auto;
+    background: linear-gradient($turq,$steel);
+  }
+  &__content{
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  }

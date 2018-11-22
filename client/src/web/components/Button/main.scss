@@ -1,0 +1,17 @@
+@import 'styles/variables.scss';
+
+.button{
+	width: 270px;
+	height: 68px;
+	color: #fff;
+	border-radius: 34px;
+	background: linear-gradient(to left, #68BCBE 0%, #0DEDF7 100%); 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.15s ease;
+}
+
+.button:hover{
+	opacity: 0.85;
+}
